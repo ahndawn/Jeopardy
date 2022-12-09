@@ -1,7 +1,59 @@
-/* some colors you may find useful:
-  #115ff4
-  #060ce9
-  #28a200
-  #8d2ab5
-  #74119c
-*/
+body {
+ background-color: rgb(190, 207, 255);
+}
+
+h1 {
+  text-align: center;
+  font-size: 8vw;
+  font-family:'Nerko One', cursive;
+  letter-spacing: .2rem;
+
+-webkit-text-stroke-width: 1.5px;
+-webkit-text-stroke-color: white;
+}
+
+#jeopardy {
+  text-align: center;
+  font-size: 9pt;
+  background-color: #2d34e9;
+  color: white;
+  border-collapse: collapse;
+}
+
+#jeopardy th, #jeopardy td {
+  border: solid 3px white;
+  
+  width: 12em;
+  padding: 1em;
+}
+
+button {
+  cursor: pointer;
+  background-color:  rgb(190, 207, 255);
+  border: none;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  /* text-shadow: #0a0404 4px 4px; */
+  display: inline-block;
+  font-size: 30px;
+  font-family:'Nerko One', cursive;
+}
+
+th {
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  height: 4em;
+  text-shadow: black 3px 3px;
+}
+
+td {
+  height: 9em;
+  font-family: Copse, serif;
+}
+
+td:hover {
+  cursor: pointer;
+}
